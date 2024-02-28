@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width:800px) {
+    body{
+       font-size: 1rem;
+    }
+}
+
+body{
+    width: 80vw;
+    height: 80vh;
+    background-image: url(64c15032a90fafad1f5cb935__5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.picture{
+    width:557px;
+    height: 380px;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-right: 50px;
+    position: absolute;
+}
+
+.head{
+    margin-top: 40px;
+    padding-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    color:rgb(11, 11, 190);
+    margin-left: 700px;
+    text-align: center;
+}
+
+.text{
+    float: right;
+    font-family: sans-serif;
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    margin-left: 700px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.para{
+    font-family: sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    margin-left: 700px;
+    margin-top: 80px;
+}
+
+button{
+    margin-left: 740px;
+    padding: 15px 30px;
+    font-size: 30px;
+    background-color: papayawhip;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    color: blue;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.countdown{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.countdown div{
+    flex-basis: 100px
+}
+
+.countdown div h2{
+    font-size: 60px;
+}
+
+#days, #hours, #minutes, #seconds{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: papayawhip;
+    color:darkblue
+}
+
+#hours span{
+    font-size: 30px;
+}
+
